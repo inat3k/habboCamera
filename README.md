@@ -1,28 +1,22 @@
 # Habbo Server Camera
 PHP Class, to Emulate Sulake's Habbo Hotel "in-game" Camera Applet.
 
-### About
-
-#### Author
-> Claudio A. Santoro W.
-
-#### Version
-> 1.0 Alpha
-
 #### License
-> Copyright (C) 2015 Sulake Corporation Oy
+<pre>
+Copyright (C) 2015 Sulake Corporation Oy
 
-> This program is free software: you can redistribute it and/or modify
+This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-> This program is distributed in the hope that it will be useful,
+This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+</pre>
 
-> *Read Complete GNU GPL 3.0 [Clicking Here](https://github.com/sant0ro/habbo-camera-server/blob/master/LICENSE.md)*
+*Read Complete GNU GPL 3.0 [Clicking Here](https://github.com/sant0ro/habbo-camera-server/blob/master/LICENSE.md)*
 
 ### Installation
 - Download ServerCamera.php
@@ -34,8 +28,9 @@ GNU General Public License for more details.
 > You can Use The Test JSON for test ServerCamera. *(putting servercamera.php?test=true)*
 
 #### Assets
-> You need Habbo's Assets to Make the ServerCamera generate the Images. All Assets are available [here](https://github.com/sant0ro/habbo-asset-extractor)
-> **Attention**: Assets will be downloaded in correct folders. You need to execute assets.php, figures.php, masks.php
+You need Habbo's Assets to Make the ServerCamera generate the Images. All Assets are available [here](https://github.com/sant0ro/habbo-asset-extractor)
+
+**Attention**: Assets will be downloaded in correct folders. You need to execute assets.php, figures.php, masks.php
 
 #### Default Folders
 - Default Folder for Mask Assets: /masks/
@@ -61,7 +56,7 @@ an Adobe Flash Crosddomain Policy (X-CORS) file "crossdomain.xml". Without that 
 [Read More Here](http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html)
 
 #### Warning
-> The installation function and test function only will work in localhost, or in a IP address specified in the white-list array.
+The installation function and test function only will work in localhost, or in a IP address specified in the white-list array.
 
 #### Dudes? Issues?
 **Post [Here](https://github.com/sant0ro/habbo-camera-server/issues)**
